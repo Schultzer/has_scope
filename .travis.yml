@@ -1,11 +1,16 @@
 language: ruby
 sudo: false
 rvm:
+  - 1.9
+  - 2.0
   - 2.1
   - 2.2
 gemfile:
   - Gemfile
+  - gemfiles/Gemfile-rails.3.2.x
+  - gemfiles/Gemfile-rails.4.0.x
   - gemfiles/Gemfile-rails.4.1.x
+  - gemfiles/Gemfile-rails.5.0.x
   - gemfiles/Gemfile-rails.head
 notifications:
   email: false
