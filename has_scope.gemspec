@@ -22,8 +22,6 @@ Gem::Specification.new do |s|
     'README.md'
   ]
 
-  s.required_ruby_version = '>= 2.1.7'
-
-  s.add_runtime_dependency 'actionpack', '>= 4.1', '< 5.1'
-  s.add_runtime_dependency 'activesupport', '>= 4.1', '< 5.1'
+  s.add_runtime_dependency 'actionpack', '>= 3.2', '< 5.1'
+  s.add_runtime_dependency 'activesupport', '>= 3.2', '< 5.1'
 end
